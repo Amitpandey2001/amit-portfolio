@@ -28,7 +28,7 @@
     color: var(--body-text-color);
     background: -webkit-linear-gradient(to right, #70e1f5, #ffd194);
     background: linear-gradient(to right, #70e1f5, #ffd194);
-
+    margin: 0px 14px;
     text-align:justify;
   }
   h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
@@ -212,7 +212,7 @@ ul.nav.nav-pills {
     bottom: 0;
     width: 100%;
     z-index: 1000;
-    margin: 0px;
+    margin: -15px;
     border-radius: 0px;
     display: flex;
     padding: 0px;
@@ -390,10 +390,10 @@ img{
 
   }
   img.portfolio-img{
-    max-width: 300px;
-    max-height: 250px;
+    max-width: 230px;
+    max-height: 200px;
     object-fit: fill ;
-    padding: 8px;
+    padding: 3px;
     border-radius: 20px;
   }
 
@@ -428,6 +428,10 @@ color: var(--body-text-color);
   margin: 10px;
 }
 
+button.btn.btn-primary.btn-lg {
+  margin: 0px 0px 50px 300px;
+}
+
 @media only screen and (max-width: 900px) {
 
   .contact-list{
@@ -442,8 +446,11 @@ color: var(--body-text-color);
     margin-left: 60px;
     margin-bottom: 20px;
     padding: 10px;
-
   }
+  button.btn.btn-primary.btn-lg {
+    margin: 0px 0px 50px 75px;
+  }
+
 
 }
 
